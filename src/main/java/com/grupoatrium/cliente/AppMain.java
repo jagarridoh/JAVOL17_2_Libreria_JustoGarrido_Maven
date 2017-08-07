@@ -15,6 +15,7 @@ import com.grupoatrium.persistencia.impl.LibrosDAO;
 public class AppMain {
 
 	public static void main(String[] args) {
+		System.out.println("Version 20170806 inicio punto 5 practica");
 		// Levantar el contexto de Spring. Crear el contenedor de beans a partir del archivo applicationContext.xml
 		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
 		
